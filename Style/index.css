@@ -1,0 +1,79 @@
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 98.8%;
+    background-color: #131a28 ;
+    position: fixed;
+    color: white;
+    margin-top: -10px;
+}
+#leftnav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: center;
+}
+#rightnav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 35%;
+    align-content: right;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 10px;
+    padding-right: -10px;
+}
+a{
+    text-decoration: none;
+   /* margin: 5px; */
+}
+#rightnav button{
+    background-color: #1f80e0;
+    color: white;
+    border: #131a28;
+    padding: 1.5%;
+    border-radius: 5px;
+}
+
+#searchbar{
+    outline: 0;
+   border-width: 0 0 1px;
+   border-color: white;
+}
+svg{
+    margin-top: 5px;
+    margin-right: -25px;
+    height: 20px;
+ }
+#rightnav a{
+ color: white;
+ border-radius: 10px;
+ 
+}
+#carousel img{
+    width: 100%;
+    height: 500px;
+    
+}
+
+#movies {
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+
+}
+#movies div {
+    width: 80%;
+    margin: auto;
+}
+#movies div img {
+     width: 90%;
+    /* height: 100px;  */
+    display: flex;
+    gap:20px
+}

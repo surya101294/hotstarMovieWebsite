@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search page</title>
+    <style>
+        
+        #movies{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            margin: 3%;
+            justify-items: center;
+            text-align: center;
+        }
+        #loader_div{
+            display: none;
+        }
+    </style>
+<link rel="stylesheet" href="../Style/index.css" />
+</head>
+<body>
+    <div id="navbar"></div>
+    <h1>Hotstar</h1>
+    <div id="carousel"> </div>
+
+    <div>
+        
+<!-- //using module will not allow oninput -->
+    <div id="search_div">Search Movies : <input type="text" id="movie_name">    
+        <!-- <button onclick="searchMovies()">Search Movies</button> -->
+        <img id="loader" src="https://i.giphy.com/media/y1ZBcOGOOtlpC/giphy.webp" alt="">
+    </div>
+    <div id="movies"></div>
+</body>
+</html>
+<script type="module" src="search.js"> </script>
+<!-- //debounce-murder -->
