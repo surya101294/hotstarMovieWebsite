@@ -11,8 +11,10 @@ let images=['https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/
 
 let imgElemant = document.createElement("img")
 
+let txting=document.createElement("p")
 imgElemant.src=images[0];
-carousel_div.append(imgElemant)
+// txting.textContent="hi";
+carousel_div.append(imgElemant, txting)
 
 let i=1
 
@@ -24,7 +26,10 @@ setInterval(function(){
     // console.log(i)
 //   append image
 imgElemant.src=images[i];
+txting.innerText="he,lllo"
+txting.style.backgroundColor="green"
 carousel_div.append(imgElemant)
+
     i++
 },3000)
 

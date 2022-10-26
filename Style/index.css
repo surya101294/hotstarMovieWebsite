@@ -52,9 +52,22 @@ svg{
  border-radius: 10px;
  
 }
-#carousel img{
+#carousel{
+    display: flex;
+    width: 100%; 
+     height: 500px;
+    padding-top: 20px;
+}
+#carousel p{
+    /* flex:5; */
     width: 100%;
-    height: 500px;
+    /* height: 500px; */
+    
+}
+#carousel img{
+    /* flex: 5; */
+    width: 100%;
+    /* height: 500px; */
     
 }
 
