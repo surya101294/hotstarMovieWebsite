@@ -27,6 +27,7 @@
 }
 a{
     text-decoration: none;
+    color: black;
    /* margin: 5px; */
 }
 #rightnav button{
@@ -58,17 +59,8 @@ svg{
      height: 500px;
     padding-top: 20px;
 }
-#carousel p{
-    /* flex:5; */
-    width: 100%;
-    /* height: 500px; */
-    
-}
 #carousel img{
-    /* flex: 5; */
-    width: 100%;
-    /* height: 500px; */
-    
+    width: 100%;    
 }
 
 #movies {
@@ -89,4 +81,12 @@ svg{
     /* height: 100px;  */
     display: flex;
     gap:20px
+}
+
+button {
+    border-radius: 25px;
+    border: 1px solid black;
+    height: 25px;
+    color: #131a28;
+    background-color: #ccc ;
 }

@@ -13,8 +13,7 @@ let imgElemant = document.createElement("img")
 
 let txting=document.createElement("p")
 imgElemant.src=images[0];
-// txting.textContent="hi";
-carousel_div.append(imgElemant, txting)
+carousel_div.append(imgElemant)
 
 let i=1
 
@@ -26,8 +25,6 @@ setInterval(function(){
     // console.log(i)
 //   append image
 imgElemant.src=images[i];
-txting.innerText="he,lllo"
-txting.style.backgroundColor="green"
 carousel_div.append(imgElemant)
 
     i++
