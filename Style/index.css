@@ -90,3 +90,102 @@ button {
     color: #131a28;
     background-color: #ccc ;
 }
+
+@media only screen and (min-width: 500px) and (max-width: 768px) {
+    #movies{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    #navbar{
+        display: grid;
+        grid-template-columns: 1fr;
+        /* justify-content: left; */
+        width: 100%;
+        height: auto ;
+        margin: auto;
+        margin-top: -10px;
+    }
+    #leftnav{
+        width: 100%;
+        height: auto;
+        display: grid;
+        padding-left: 10px;
+        justify-content: left;        
+    }
+    #rightnav{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        align-content: right;
+        align-items: center;
+        margin-right: 10px;
+        padding-right: -10px;
+    }
+    button{
+       width: 30%
+    }
+    #carousel{
+        display: flex;
+        width: 100%; 
+        height: 300px;
+        padding-top: 200px;
+    }
+    #carousel img{
+        width: 100%;    
+        height: 300px;
+    }
+}
+
+
+@media only screen and (min-width: 50px) and (max-width: 499px) {
+    #movies{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 10px;
+    }
+    #navbar{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: space-between;
+        width: 100%;
+    }
+    #leftnav{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-left: 10px;
+    }
+    #movie_name{
+        margin-top: 150px;
+        /* padding-top: 80px; */
+    }
+    input{
+        width: 30%;
+    }
+    #rightnav{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        width: 100%;
+        align-content: right;
+        align-items: center;
+        margin-right: 10px;
+        padding-right: -10px;
+    }
+    button{
+        width: 50%
+     }      
+     #carousel{
+        display: flex;
+        width: 90%;
+        margin : auto; 
+        height: 300px;
+        padding-top: 200px;
+    }
+    #carousel img{
+        width: 100%;    
+        height: 200px;
+    }
+}
